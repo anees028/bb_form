@@ -40,3 +40,34 @@
 .read-the-docs {
   color: #888;
 }
+
+@font-face {
+  font-display: block;
+  font-family: 'nova-icons';
+
+  font-weight: normal;
+  font-style: normal;
+  src: url('@eliagroup-innersource/nova-core/dist/assets/fonts/nova-icons.woff2') format('woff2');
+  descent-override: 15%;
+}@font-face {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("@eliagroup-innersource/nova-core/dist/assets/fonts/tt-norms-pro-normal.woff2") format("woff2");
+  font-display: swap;
+  ascent-override: 110%;
+}@font-face {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: 500;
+  src: url("@eliagroup-innersource/nova-core/dist/assets/fonts/tt-norms-pro-medium.woff2") format("woff2");
+  font-display: swap;
+  ascent-override: 110%;
+}@font-face {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: url("@eliagroup-innersource/nova-core/dist/assets/fonts/tt-norms-pro-bold.woff2") format("woff2");
+  font-display: swap;
+  ascent-override: 110%;
+}
