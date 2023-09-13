@@ -1,2 +1,18 @@
 .main{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
 }
+
+.row_gaps{
+    margin-top: 15px;
+}
+
+.image{
+    margin-left: 40%;
+}
+
+.btnSubmit{
+    text-align: center;
+}
+
